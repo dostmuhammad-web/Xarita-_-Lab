@@ -1,0 +1,83 @@
+export const quizQuestions = [
+  {
+    id: 'scale-km',
+    question: 'Xarita masshtabi 1:50 000. Xaritadagi 4 sm masofa yerdagi qancha kilometrga teng?',
+    options: ['0,5 km', '2 km', '5 km', '20 km'],
+    answer: 1,
+    explanation: '4 sm × 50 000 = 200 000 sm. 200 000 sm = 2 km.',
+  },
+  {
+    id: 'azimuth-start',
+    question: 'Azimut qaysi tomondan boshlab o‘lchanadi?',
+    options: [
+      'Sharqdan, soat strelkasiga qarshi',
+      'Janubdan, soat strelkasi bo‘yicha',
+      'Shimoldan, soat strelkasi bo‘yicha',
+      'G‘arbdan, soat strelkasi bo‘yicha',
+    ],
+    answer: 2,
+    explanation: 'Azimut — shimol yo‘nalishidan soat strelkasi bo‘yicha 0° dan 360° gacha o‘lchanadigan burchak.',
+  },
+  {
+    id: 'scale-one-cm',
+    question: '1:100 000 masshtabli xaritada 1 sm yerdagi qancha masofani bildiradi?',
+    options: ['100 m', '1 km', '10 km', '100 km'],
+    answer: 1,
+    explanation: '1 sm × 100 000 = 100 000 sm = 1 km. Masshtab qiymati qanchalik katta bo‘lsa (1:200 000), obyektlar shunchalik mayda ko‘rinadi.',
+  },
+  {
+    id: 'contour-definition',
+    question: 'Gorizontallar (izogipslar) nima?',
+    options: [
+      'Xaritaning yuqori va pastki chegaralari',
+      'Bir xil balandlikdagi nuqtalarni tutashtiruvchi chiziqlar',
+      'Shamol yo‘nalishini ko‘rsatuvchi strelkalar',
+      'Daryolarni ifodalovchi ko‘k chiziqlar',
+    ],
+    answer: 1,
+    explanation: 'Gorizontallar relyefning bir xil balandlikdagi nuqtalarini birlashtiradi. Ular orqali tepalik va yonbag‘irlarni o‘qish mumkin.',
+  },
+  {
+    id: 'northeast',
+    question: 'Shimoli-sharq yo‘nalishi qaysi azimutga mos keladi?',
+    options: ['0°', '45°', '90°', '315°'],
+    answer: 1,
+    explanation: 'Shimol 0°, sharq 90°. Ularning o‘rtasidagi shimoli-sharq 45° ga teng.',
+  },
+  {
+    id: 'latitude',
+    question: 'Geografik kenglik (latitude) qaysi yo‘nalishda o‘lchanadi?',
+    options: [
+      'Ekvatordan shimolga va janubga',
+      'Bosh meridiandan sharqqa va g‘arbga',
+      'Faqat shimoliy qutbdan',
+      'Xaritaning pastki chetidan yuqorisiga qarab',
+    ],
+    answer: 0,
+    explanation: 'Kenglik ekvatordan 0° dan qutblarga qadar 90° gacha o‘lchanadi. Uzoqlik esa bosh meridiandan sharq va g‘arbga o‘lchanadi.',
+  },
+  {
+    id: 'legend',
+    question: 'Xarita legendasi nima uchun kerak?',
+    options: [
+      'Xarita muallifini ko‘rsatish uchun',
+      'Masshtabni hisoblash uchun',
+      'Shartli belgilarni izohlash uchun',
+      'Xarita rangini tanlash uchun',
+    ],
+    answer: 2,
+    explanation: 'Legenda — xaritadagi shartli belgilar va ranglarning ma’nosini tushuntiruvchi kalit.',
+  },
+  {
+    id: 'steep-slope',
+    question: 'Relyefning tik yonbag‘iri gorizontallarda qanday ko‘rinadi?',
+    options: [
+      'Chiziqlar bir-biridan juda uzoq joylashadi',
+      'Chiziqlar bir-biriga yaqin joylashadi',
+      'Chiziqlar butunlay yo‘qoladi',
+      'Chiziqlar faqat gorizontal holatda bo‘ladi',
+    ],
+    answer: 1,
+    explanation: 'Gorizontallar bir-biriga qanchalik yaqin bo‘lsa, balandlik shunchalik tez o‘zgaradi — yonbag‘ir tik bo‘ladi.',
+  },
+]
